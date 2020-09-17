@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&family=PT+Sans&family=Raleway&display=swap');
+
+body{
+/*
+    font-family: 'Noto Sans JP', sans-serif;
+font-family: 'PT Sans', sans-serif;
+*/
+font-family: 'Raleway', sans-serif;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+header{
+    border: 2px solid red;
+    background-image: url(images/bt.jpg);
+    height: 900px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right top;
+    overflow: hidden;
+}
+
+header .nav-bar a{
+    text-decoration: none;
+    color: gray;
+    font-size: 16px;
+    
+}
+
+header .nav-bar{
+    border: 2px solid blue;
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    overflow: hidden;
+    
+}
+
+header nav{
+    height: 50px;
+    background-color: white;
+    overflow: hidden;
+    width: 1200px;
+    margin: auto;
+}
+
+nav .logo{
+    float: left;
+    line-height: 49px;
+}
+
+.menu{
+    float: right;
+    overflow: hidden;
+}
+
+.menu ul{
+    margin: 0;
+    line-height: 49px;
+    list-style: none;
+}
+.menu ul li{
+    display: inline-block;
+    float: left;
+    box-sizing: border-box;;
+    margin: 0 15px;
+}
+
+li:nth-last-child(1){
+    margin-right: 0;
+}
+.fa-heart{
+    font-size: 20px;
+    vertical-align: middle;
+    margin-right: 10px;
+    
+}
+
+.hire-me{
+    color: white;
+    background-color: rgba(0,0,0,0.49);
+    height: 900px;
+    position: relative;
+}
+
+.hire-me h1,
+.hire-me h2,
+.hire-me p,{
+    margin: 0;
+}
+
+.title{
+    position: absolute;
+    bottom: 30%;
+    left: 2%;
+}
+
+
+.hire-me h1{
+    font-family: 'Noto Sans JP',sans-serif;
+    font-size: 60px;
+    
+}
+
+.hire-me h2{
+    font-size: 30px;
+    
+}
+
+.hire-me p{
+    font-family: 'PT Sans', sans-serif;
+    margin: 20px 0 30px 0;
+}
+
+.hire-me a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px ;
+    border: 1px solid ;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.51);   
+}
+
+.services{
+    margin: 20px 0;
+    
+}
+
+.services ul{
+    display: flex;
+    list-style: none;
+    margin: auto;
+    width: 500px;
+   
+}
+
+.services li{
+    display: flex;
+    margin: auto;
+}
+
+.services li a{
+    text-decoration: none;
+    color: #696969;
+}
+
+.gallery{
+    border: 1px solid;
+    width: 1000px;
+    margin: auto;
+    
+    
+}
+
+.group{
+    display: flex;
+    margin: 30px 0;
+}
+
+.pic{
+    width: 250px;
+    height: 250px;
+    box-shadow: 1px 1px 8px 2px gray;
+    border-radius: 10px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.pic1 img{
+    height: 250px;
+    width: 250px;
+    
+}
+.pic2 img{
+    height: 250px;
+    width: 250px;
+    
+}
+.pic3 img{
+    height: 250px;
+    width: 250px;
+    
+}
+
+.pic img{
+    height: 250px;
+    width: 250px;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    background-color: white;
+    line-height: 100px;
+}
+footer .left{
+    margin: auto;
+}
+footer .right{
+   margin: auto;
+    
+}
+
+footer a{
+    color: gray;
+}
+
+footer i.fa{
+    font-size: 30px;
+    border: 1pxsolid;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    
+}
+i.fa-facebook{
+    color: blue;
+    
+    
+}
+i.fa-instagram{
+    color: #ed25b7;
+}
+i.fa-wechat{
+    color: greenyellow;
+}
+i.fa-whatsapp{
+    color:darkgreen;
+}
+
+
+
+.info1{
+    width: 100%;
+    height: 350px;
+    background: ;
+    font-size: 30px;
+    
+}
+
+.info1_area{
+    color: #333
+   
+}
+.info1_area img{
+      margin-top: 48px;
+    float: left;
+    margin-left: 40px;
+    
+}
+
+.info1_area h1{
+    margin: 0;
+    font-weight: normal;
+    
+}
+
+
+.info2{
+    width: 100%;
+    height: 350px;
+    background: ;
+    font-size: 30px;
+}
+
+.info2_area{
+    color: ;
+}
+.info2_area img{
+    margin-top: 48px;
+    float: left;
+    margin-left: 40px;
+}
+info2_text{
+    text-align: center;
+    float: right;
+    width: 400px;
+    margin-left: 40px;
+    margin-top: 140px;
+}
+
+}
+.info2_area h1{
+    margin: 0;
+    font-weight: normal;
+}
+
+.info3{
+    width: 100%;
+    height: 350px;
+    background: ;
+    font-size: 30px;
+}
+
+.info3_area{
+    color: ;
+}
+.info3_area img{
+    margin-top: 48px;
+    float: left;
+    margin-left: 40px;
+}
+info3_text{
+    text-align: center;
+    float: right;
+    width: 400px;
+    margin-left: 40px;
+    margin-top: 140px;
+}
+.info3_area h1{
+    margin: 0;
+    font-weight: normal;
+}
+
+
